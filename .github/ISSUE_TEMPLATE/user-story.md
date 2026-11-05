@@ -1,18 +1,22 @@
----
 name: User Story
-about: Capture a product requirement as a user story
-title: ''
-labels: ''
+about: Create a stakeholder user story
+title: "[USER STORY] "
+labels: enhancement
 assignees: ''
 ---
 
-### User Story
-As a [role], I need [capability] so that [benefit].
+## User Story
 
-### Acceptance Criteria
-- Given [initial context]
-  When [an action occurs]
-  Then [observable outcome]
+**As a** registered customer
 
-### Notes
-- Requirement number: [1–10]
+**I need** the ability to create and manage products in the online platform
+
+**So that** I can easily add, update, and organize products in the catalogue.
+
+## Acceptance Criteria
+
+**Given** I am a registered and logged-in customer
+
+**When** I enter valid product information and click the Create Product button
+
+**Then** the system should successfully save the product and display a confirmation message.
